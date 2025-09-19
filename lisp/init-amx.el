@@ -1,4 +1,4 @@
-;;; amx.el --- Improved M-x interface -*- lexical-binding: t -*-
+;;; init-amx.el --- Improved M-x interface -*- lexical-binding: t -*-
 ;;; Commentary:
 ;; amx enhances the built-in `M-x` by providing better command
 ;; history and completion. It remembers frequently and recently
@@ -9,5 +9,5 @@
   :ensure t
   :init (amx-mode))
 
-(provide 'amx)
-;;; amx.el ends here
+(provide 'init-amx)
+;;; init-amx.el ends here

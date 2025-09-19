@@ -36,9 +36,17 @@
 (require 'ui)
 
 ;;
-(require 'ivy)        ; Completion and enhanced M-x interface
-(require 'amx)        ; Improved M-x interface
-(require 'ace-window) ; Quickly switch between windows
+(require 'init-ivy)        ; Completion and enhanced M-x interface
+(require 'init-amx)        ; Improved M-x interface
+(require 'init-ace-window) ; Quickly switch between windows
+(require 'init-mwim)       ; Move to beginning or end itelligently
+(require 'init-undo-tree)  ; Persistent and visual undo system
+(require 'init-company)   ; company plugins
+(require 'init-yasnippet)
+(require 'init-lsp)
+(require 'init-dap-mode)
+(require 'init-projectile)
+(require 'init-treemacs)
 
 ;; Customize
 (setq custom-file "~/.emacs.d/custom.el")

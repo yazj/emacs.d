@@ -1,4 +1,4 @@
-;;; ivy.el --- Completion and enhanced M-x interface -*- lexical-binding: t -*-
+;;; init-ivy.el --- Completion and enhanced M-x interface -*- lexical-binding: t -*-
 ;;; Commentary:
 ;; This module sets up Ivy, Counsel, Swiper, and Amx for a modern
 ;; completion and command execution experience.
@@ -36,5 +36,5 @@
   :ensure t
   :init (amx-mode))
 
-(provide 'ivy)
-;;; ivy.el ends here
+(provide 'init-ivy)
+;;; init-ivy.el ends here
